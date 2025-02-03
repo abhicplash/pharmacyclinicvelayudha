@@ -30,7 +30,7 @@ const NavBar = () => {
     const { name, email, phone, date, specialty } = formData;
 
     const message = `Appointment Request\n\nName: ${name}\nEmail: ${email}\nPhone: ${phone}\nDate: ${date}\nSpecialty: ${specialty}`;
-    const whatsappUrl = `https://wa.me/+919562465095/?text=${encodeURIComponent(
+    const whatsappUrl = `https://wa.me/+917025796781/?text=${encodeURIComponent(
       message
     )}`;
 
@@ -63,7 +63,7 @@ const NavBar = () => {
 
               <FaLocationDot className="contactIcon" />
             </a>
-            <a href="https://wa.me/+919562465095/?text=let me know more about Velayudha Pharmacy and Clinic">
+            <a href="https://wa.me/+917025796781/?text=let me know more about Velayudha Pharmacy and Clinic">
               <FaSquareWhatsapp className="contactIcon" />
             </a>
             <a href="https://www.instagram.com/velayudha_pharmacy">
