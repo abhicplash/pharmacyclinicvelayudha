@@ -18,7 +18,7 @@ const NavBar = () => {
     email: "",
     phone: "",
     date: "",
-    specialty: ""
+    specialty: "",
   });
   const [view, setView] = useState(false);
   const handleChange = (e) => {
@@ -60,21 +60,19 @@ const NavBar = () => {
         <div className="navRight">
           <div className="icons">
             <a href="https://www.google.com/maps/place/9%C2%B059'24.5%22N+76%C2%B017'26.7%22E/@9.9901442,76.2881751,17z/data=!3m1!4b1!4m4!3m3!8m2!3d9.9901389!4d76.29075?entry=ttu">
-
               <FaLocationDot className="contactIcon" />
             </a>
-            <a href="https://wa.me/+917025796781/?text=let me know more about Velayudha Pharmacy and Clinic">
+            <a
+              href="https://wa.me/+917025796781/?text=let me know more about Velayudha Pharmacy and Clinic"
+              target="_blank"
+            >
               <FaSquareWhatsapp className="contactIcon" />
             </a>
             <a href="https://www.instagram.com/velayudha_pharmacy">
               <FaInstagramSquare className="contactIcon" />
             </a>
 
-            <FaPenToSquare
-              className="contactIcon"
-              onClick={handleForm}
-            />
-
+            <FaPenToSquare className="contactIcon" onClick={handleForm} />
           </div>
         </div>
       </div>
