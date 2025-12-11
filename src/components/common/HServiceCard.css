@@ -1,31 +1,49 @@
 .homeservicecard {
   width: 14rem;
-  height: 14rem;
-  background-color: var(--lightgreen);
-  border-radius: 10px;
-  box-shadow: 2px 2px 5px 0.5px rgb(232, 231, 231);
+  height: 15rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  border-radius: 10px;
   align-items: center;
+  justify-content: center;
   text-align: center;
-  gap: 0.6rem;
+  border: 2.3px solid #615c4e;
+  background-color: #fff;
+  gap: 2px;
+}
+.HS-cardwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .homeservicecard:hover {
-  background-color: var(--darkgreen);
+  border-color: var(--darkgreen);
   transition-duration: 1s;
   cursor: pointer;
 }
-.homeservicecard:hover .servicecardpara {
+/* .homeservicecard:hover .servicecardpara {
   color: white;
-}
-.homeservicecard img {
-  width: 3.6rem;
+} */
+.homeservicecard .ServiceImg {
+  width: 3.5rem;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 100%;
+  border: 2.5px solid var(--darkgreen);
 }
 .servicecardname {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  color: var(--yellow);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  color:var(--darkgreen);
+}
+.servicesubdesc {
+  width: 80%;
 }
 .servicecardpara {
   padding: 0 0.5rem;

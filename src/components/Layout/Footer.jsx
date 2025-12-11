@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
         <p>
-          where tradition meets excellence. Established in 1948, we have been
+          Where tradition meets excellence. Established in 1948, we have been
           dedicated to the art and science of Ayurveda for over seven decades,
           offering natural and holistic healthcare solutions to our community.
         </p>

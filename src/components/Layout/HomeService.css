@@ -1,19 +1,27 @@
 .HSWrapper {
   width: 100%;
-  padding: 5rem 0;
+  padding-bottom: 5rem;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  font-family: "Bebas Neue", sans-serif;
+
   background-color: var(--white);
 }
 .homeservicepara {
   text-align: center;
   width: 64ch;
   font-size: 20px;
+}
+.heading-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 1rem; */
+  /* margin-bottom: 3rem; */
+  padding: 1rem 0;
 }
 .serviceslist {
   display: flex;
@@ -22,22 +30,21 @@
   flex-wrap: wrap;
   gap: 4rem;
 }
-.experiencehead
-{
-  color: var(--yellow);
-  font-size:50px ;
+.experiencehead {
+  color: var(--darkgreen);
+  font-size: 50px;
   text-align: center;
+  /* border: 1px solid red; */
 }
-@media(max-width:426px){
-  .homeservicepara{
-    width: 80%;
+@media (max-width: 426px) {
+  .homeservicepara {
+    width: 95%;
+    font-size: 1rem;
   }
-  .serviceslist{
+  .serviceslist {
     padding: 0;
   }
-  .experiencehead
-  {
-    font-size: 40px;
+  .experiencehead {
+    font-size: 2.5rem;
   }
 }
-

@@ -6,7 +6,7 @@ import { FaAward } from "react-icons/fa";
 import { ImHappy } from "react-icons/im";
 import { GiMedicinePills } from "react-icons/gi";
 import { MdOutlineGppGood } from "react-icons/md";
-import logo from "../../Assets/Images/logo/shadowGreen.png";
+import logo from "../../Assets/Images/logo/logo.png";
 
 const HomeCount = () => {
   const [counterOn, setCounteOn] = useState(false);
@@ -19,8 +19,11 @@ const HomeCount = () => {
         <div className="BgCount">
           <img src={logo} alt="" />
 
-          <span className="Countvelayudha">Velayudha</span>
-          <span className="Countpharma">Pharmacy & Clinic</span>
+          <span className="Countvelayudha">
+            Velayudha
+            <span className="Countpharma">Pharmacy & Clinic</span>
+          </span>
+          <br /> 
           <span className="CountAchive">Our Achievements</span>
           <br />
         </div>

@@ -2,14 +2,17 @@ import React from "react";
 import "./HServiceCard.css";
 import logo from "../../Assets/Images/logo/shadowGreen.png";
 
-function HServiceCard({ service }) {
+function HServiceCard({ service, subdesc,image }) {
   return (
     <div className="homeservicecard">
-      <img src={logo} alt="" />{" "}
-      <span className="servicecardpara">
-        Velayudha Pharmacy & <br /> Clinic
-      </span>
-      <span className="servicecardname">{service}</span>
+        <span className="servicecardname">{service}</span>
+      <img src={image} alt={service} className="ServiceImg" /> 
+      <div className="HS-cardwrapper">
+        <span className="servicesubdesc ">{subdesc}</span>
+        {/* <span className="servicecardpara">
+          Velayudha Pharmacy & <br /> Clinic
+        </span> */}
+      </div>
     </div>
   );
 }

@@ -9,15 +9,17 @@ const HomeService = () => {
   return (
     <div className="HSWrapper">
       {/* <MainHead Heading={"Experience  Our Exclusive Care"} /> */}
-      <h2 className="experiencehead">Experience  Our Exclusive Care</h2>
-      <span className="homeservicepara">
-        We offer a comprehensive range of Ayurvedic treatments and services
-        designed to promote balance and well-being, including:
-      </span>
+      <div className="heading-wrapper">
+        <h2 className="experiencehead">Experience Our Exclusive Care</h2>
+        <span className="homeservicepara">
+          We offer a comprehensive range of Ayurvedic treatments and services
+          designed to promote balance and well-being, including:
+        </span>
+      </div>
 
       <div className="serviceslist">
         {serviceDetailsList.map((list) => (
-          <HServiceCard service={list.serviceName} />
+          <HServiceCard image={list.image} subdesc={list.subdesc} service={list.serviceName} />
         ))}
       </div>
     </div>
