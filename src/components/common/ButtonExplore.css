@@ -7,6 +7,6 @@
   background-color: var(--green);
   color: white;
   border: none;
-  font-family: "Bebas Neue", sans-serif;
+  font-family: inherit;
   cursor: pointer;
 }

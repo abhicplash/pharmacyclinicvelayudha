@@ -5,7 +5,7 @@ function Imgcard({imagesrc}) {
   return (
     <div className="leftaboutmain">
       <div className="imgcover">
-        <div className="imgbgborder" />
+        {/* <div className="imgbgborder" /> */}
         <img
           src={imagesrc}
           alt="hiiiiiiiiii"

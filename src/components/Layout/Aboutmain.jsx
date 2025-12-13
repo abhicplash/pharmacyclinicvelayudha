@@ -10,7 +10,7 @@ function Aboutmain() {
   return (
     <div className="aboutmainwrapper">
       {/* <Imgcard imagesrc="https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1783.jpg?w=360"/> */}
-      <Imgcard imagesrc=  "https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1769.jpg?w=360"/>
+      <Imgcard imagesrc=  "https://img.freepik.com/premium-photo/herbs-spices-ayurvedic-medicine-products-herbal-medicine-products-background_677428-1769.jpg"/>
       <div className="aboutmaindetails">
         <h3>About us</h3>
         <MainHead Heading={"A Legacy of Holistic Healing Since 1948"}/>

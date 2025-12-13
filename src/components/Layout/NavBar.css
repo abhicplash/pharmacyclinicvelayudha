@@ -262,7 +262,7 @@ form button:active {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  position: absolute;
+  position: absolute;z-index: 100;
 }
 
 .nav-logo {

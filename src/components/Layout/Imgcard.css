@@ -11,6 +11,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 13px solid var(--darkgreen);
+  padding: 0.5rem;
 }
 .imgcover img {
   width: 19rem;

@@ -10,7 +10,7 @@ const About = () => {
     <Layout>
       <Aboutmain/>
       <AboutHeritage/>
-      <Aboutmember/>
+      {/* <Aboutmember/> */}
       {/* <AboutJoin/> */}
     </Layout>
   );

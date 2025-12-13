@@ -4,8 +4,9 @@
   justify-content: center;
   width: 100%;
   height: 80vh;
-  font-family: "Bebas Neue", sans-serif;
-  /* background-color: var(--lightgreen); */
+  padding: 3rem 0;
+  /* font-family: "Bebas Neue", sans-serif;  */
+  /* background-color: var(--lightgreen);p1rem */
 }
 .aboutmaindetails {
   width: 100%;
