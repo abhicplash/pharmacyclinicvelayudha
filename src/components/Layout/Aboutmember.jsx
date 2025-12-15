@@ -16,7 +16,7 @@ const Aboutmember = () => {
           alt=""
         />
         <div className="currentDetails">
-          <span className="head">Dr.V Jishnu Gopal</span>
+          <span className="head">Dr. V  Jishnu Gopal</span>
 
           <span className="paragraph">
             Ayurvedic Healthcare Expert & Director, Velayudha

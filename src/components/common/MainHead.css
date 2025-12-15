@@ -2,10 +2,10 @@
   font-size: 3rem;
   font-weight: 600;
   line-height: 2.5rem;
-  color: var(--yellow);
+  color: var(--darkgreen);
   /* font-family: "Bebas Neue", sans-serif; */
-  width: 60%;
-  /* text-align: center; */
+  width: 100%;
+  text-align: center;
 }
 @media (max-width: 426px) {
   .MainHeading {

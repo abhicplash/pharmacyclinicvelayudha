@@ -15,30 +15,20 @@ const Sidebar = () => {
     <div className="servicemain">
       <div className="sidebar">
         <div className="services">
-          <div className="servicelist" onClick={serviceHandle}>
-            Arthritis
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Migraine & Sinusitis
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Diabetes
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Skin treatment
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Hair fall & Dandruf
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Depression & Anxiety
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Gastric Problem
-          </div>
-          <div className="servicelist" onClick={serviceHandle}>
-            Immunity booster Program
-          </div>
+          {serviceDetailsList
+            // .filter((item) => item.serviceName === serviceName)
+            .map((list) => (
+              <div className="servicewrapper">
+                <img
+                  src={list.image}
+                  alt={list.serviceName}
+                  className="serviceImgSmall"
+                />
+                <div className="servicelist" onClick={serviceHandle}>
+                  {list.serviceName}
+                </div>
+              </div>
+            ))}
         </div>
       </div>
       {serviceDetailsList
@@ -48,6 +38,9 @@ const Sidebar = () => {
             <div className="DisDetailsInfo">
               {/* <h1>{list.serviceName}</h1> */}
               <MainHead Heading={list.serviceName} />
+              {console.log(list)}
+              {/* <span>{item.serviceName}</span> */}
+              <span>{list.serviceName}</span>
               <h3>{list.description}</h3>
             </div>
             <img className="DisDetailsImg" src={list.image} alt="" />

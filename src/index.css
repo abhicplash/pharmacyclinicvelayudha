@@ -33,3 +33,6 @@ code {
 a {
   text-decoration: none;
 }
+.service-wrapper,.about-main-wrapper{
+  padding: 2.5rem 0;
+}

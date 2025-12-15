@@ -7,7 +7,7 @@
   justify-content: center;
   align-items: center;
   /* background-color:var(--lightgreen); */
-  font-family: "Bebas Neue", sans-serif;
+  /* font-family: "Bebas Neue", sans-serif; */
 }
 .aboutmember .heritage {
   /* font-size: 2.5rem; */
@@ -16,7 +16,6 @@
   font-size: 3rem;
   font-weight: 600;
   /* line-height: 1rem; */
-
 }
 
 .member {
@@ -29,9 +28,13 @@
   align-items: center;
   margin: 3rem 0;
   /* padding: 3rem 0; */
-  color: var(--lightgreen);
-  background: url("https://static.vecteezy.com/system/resources/previews/035/978/179/non_2x/ai-generated-indian-ayurveda-herbal-medicine-free-photo.jpg");
+  background-color: var(--darkgreen);
+  /* background: url("https://static.vecteezy.com/system/resources/previews/035/978/179/non_2x/ai-generated-indian-ayurveda-herbal-medicine-free-photo.jpg"); */
   position: relative;
+  /* opacity: 0.5; */
+  /* border: 1px solid red; */
+  /* background-color: #fff; */
+  box-shadow: 1px 1px 5px 0.5px #9d9b9b;
 }
 .membershadow {
   width: 100%;
@@ -39,12 +42,18 @@
   height: 70vh;
   position: absolute;
   z-index: 2;
-  /* height: 450px; */
   border-radius: 20px;
-  background-color: rgba(0, 128, 0, 0.285);
-  /* background-color: rgba(255, 0, 0, 0.227); */
+  /* background-color: #fff; */
+  /* background: linear-gradient(to left bottom,#021209,#102c11); */
+  /* background-color: var(--darkgreen); */
+  /* background-color: rgba(0, 128, 0, 0.285); */
+  background: url("https://static.vecteezy.com/system/resources/previews/035/978/179/non_2x/ai-generated-indian-ayurveda-herbal-medicine-free-photo.jpg");
+  opacity: 0.6;
+  background-size: cover;
+  background-position: center;
+  /* filter: blur(2px); */
 }
-.currentDetails .head{
+.currentDetails .head {
   color: var(--white);
   font-size: 2.6rem;
   font-weight: 700;
@@ -99,7 +108,7 @@
   .currentDetails {
     width: 100%;
   }
-  .currentimage{
+  .currentimage {
     width: 13rem;
     height: 15rem;
   }

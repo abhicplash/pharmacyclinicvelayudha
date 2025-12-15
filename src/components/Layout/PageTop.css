@@ -1,7 +1,9 @@
 .PageDetails {
   width: 100%;
-  height: 16rem;
-  background: url("https://www.keralaayurveda.biz/media/user_2mKbLQa0e7/4893/ayurvedic-treatments-therapies.png");
+  /* margin-top: 2rem; */
+  height: 20rem;
+  background: url("https://static.vecteezy.com/system/resources/previews/035/978/179/non_2x/ai-generated-indian-ayurveda-herbal-medicine-free-photo.jpg");
+  /* background: url("https://www.keralaayurveda.biz/media/user_2mKbLQa0e7/4893/ayurvedic-treatments-therapies.png"); */
   background-position: center;
   background-size: cover;
   position: relative;
@@ -9,7 +11,7 @@
 }
 .PageName {
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   background-color: #66964d54;
   position: absolute;
   z-index: 2;
@@ -18,4 +20,8 @@
   justify-content: center;
   align-items: center;
   color: var(--white);
+}
+.PageName h1{
+  font-size: 3rem;
+  font-weight: 700;
 }

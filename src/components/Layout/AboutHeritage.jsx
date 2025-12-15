@@ -24,7 +24,7 @@ function AboutHeritage() {
     },
 
     {
-      name: "Dr.V.Venugopal BAMS",
+      name: "Dr. V Venugopal BAMS",
       image: img3,
       period: "1948-1988",
       details:
