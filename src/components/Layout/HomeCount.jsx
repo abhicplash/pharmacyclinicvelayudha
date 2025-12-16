@@ -18,12 +18,11 @@ const HomeCount = () => {
       <div className="CountWrapper">
         <div className="BgCount">
           <img src={logo} alt="" />
-
           <span className="Countvelayudha">
             Velayudha
             <span className="Countpharma">Pharmacy & Clinic</span>
           </span>
-          <br /> 
+          <br />
           <span className="CountAchive">Our Achievements</span>
           <br />
         </div>

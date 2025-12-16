@@ -18,8 +18,8 @@ const HomeService = () => {
       </div>
 
       <div className="serviceslist">
-        {serviceDetailsList.map((list) => (
-          <HServiceCard image={list.image} subdesc={list.subdesc} service={list.serviceName} />
+        {serviceDetailsList.map((list,index) => (
+          <HServiceCard key={index } serviceIcon={list.serviceIcon} subdesc={list.subdesc} service={list.serviceName} />
         ))}
       </div>
     </div>

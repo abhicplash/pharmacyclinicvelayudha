@@ -20,7 +20,7 @@ const Sidebar = () => {
             .map((list) => (
               <div className="servicewrapper">
                 <img
-                  src={list.image}
+                  src={list.serviceIcon}
                   alt={list.serviceName}
                   className="serviceImgSmall"
                 />
@@ -36,11 +36,8 @@ const Sidebar = () => {
         .map((list) => (
           <div className="DisDetails">
             <div className="DisDetailsInfo">
-              {/* <h1>{list.serviceName}</h1> */}
               <MainHead Heading={list.serviceName} />
               {console.log(list)}
-              {/* <span>{item.serviceName}</span> */}
-              <span>{list.serviceName}</span>
               <h3>{list.description}</h3>
             </div>
             <img className="DisDetailsImg" src={list.image} alt="" />

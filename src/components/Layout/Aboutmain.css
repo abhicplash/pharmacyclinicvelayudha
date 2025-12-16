@@ -23,11 +23,19 @@
   width: 55%;
   text-align: justify;
 }
-@media (max-width: 426px) {
+.aboutmaindetails h1 {
+  color: var(--darkgreen);
+  /* text-align: center; */
+  width: 60%;
+}
+@media (max-width: 786px) {
+  .aboutmaindetails h1 {
+    text-align: center;
+  }
   .aboutmainwrapper {
     flex-direction: column;
     height: 100%;
-    
+
     align-items: center;
     justify-content: center;
   }
@@ -36,7 +44,7 @@
     padding: 2rem 0;
     align-items: center;
   }
-  .aboutmaindetails .aboutmainpara{
+  .aboutmaindetails .aboutmainpara {
     width: 80%;
   }
 }

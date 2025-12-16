@@ -16,7 +16,7 @@ const Footer = () => {
           <img src={logo} alt="" />
           <div className="Name">
             <span className="Velayudha">Velayudha</span>
-            <span className="pharma">pharmacy & Clinic</span>
+            <span className="pharma">Pharmacy & Clinic</span>
           </div>
         </div>
         <p>

@@ -43,8 +43,8 @@ function AboutHeritage() {
           well-being.
         </p>
         <div className="cardsLegacyheritage">
-          {legecyinfo.map((list) => (
-            <LegacyCard
+          {legecyinfo.map((list,index) => (
+            <LegacyCard key={index}
               name={list.name}
               details={list.details}
               image={list.image}
