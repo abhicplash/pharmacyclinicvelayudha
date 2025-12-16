@@ -21,6 +21,7 @@ import Layout from "../Layout/Layout";
 import "./Home.css";
 import HomeService from "../Layout/HomeService";
 import HomeCount from "../Layout/HomeCount";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -34,7 +35,9 @@ const Home = () => {
             name in Ayurveda, offering authentic treatments rooted in tradition
             to heal the cause, not just the symptoms.
           </span>
-          <button className="homebtn">Explore our care</button>
+          <Link to={"/about"}>
+            <button className="homebtn">Explore our care</button>
+          </Link>
         </div>
       </div>
       <HomeService />

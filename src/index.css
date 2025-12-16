@@ -36,3 +36,6 @@ a {
 .service-wrapper,.about-main-wrapper{
   padding: 2.5rem 0;
 }
+Link{
+  color: var(--white);
+}
